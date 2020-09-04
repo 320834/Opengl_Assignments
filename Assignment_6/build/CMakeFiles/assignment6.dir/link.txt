@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/assignment6.dir/src/main.cpp.o CMakeFiles/assignment6.dir/src/helpers.cpp.o  -o assignment6 glfw/src/libglfw3.a glad/libglad.a -lrt -lm -lX11 -lpthread -ldl 
