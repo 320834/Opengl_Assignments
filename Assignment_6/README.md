@@ -5,10 +5,18 @@ In this exercise you will implement a 3D editor that allows to prepare 3D scenes
 
 ### Running
 
+Instructions on a Linux/Ubuntu Machine
+
 1. Make sure OpenGl is installed
-2. cd build
-3. make
-4. ./assignment6
+2. Make sure the following libraries are installed
+- sudo apt-get install cmake
+- sudo apt-get install libx11-dev
+- sudo apt-get install xorg-dev libglu1-mesa-dev
+3. cd Assignment_6
+4. mkdir build
+5. cd build; cmake -DCMAKE_BUILD_TYPE=Debug ..
+6. make
+7. ./assignment6
 
 ### Usage
 
